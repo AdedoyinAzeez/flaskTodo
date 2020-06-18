@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 requires = [
     'flask',
     'flask-sqlalchemy',
-    'psycopg2',
+    #'psycopg2',
+    'pymysql'
 ]
 
 setup(
